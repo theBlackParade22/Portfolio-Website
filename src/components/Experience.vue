@@ -6,27 +6,77 @@
         <span class="year">2022</span>
       </div>
       <ul>
-        <br />
+        <br>
         <li>
           <div class="content">
             <a href="https://www.growthops.asia/" target="_blank">
               <h3>GrowthOps Asia</h3>
               <h5>Java Developer</h5>
-              <div class="grey">Jul 2021 - Present</div>
-              <br />
+              <div class="grey">Jul 2021 — Present</div>
+              <br>
               <p>
-                - Developing and enhancing websites of multiple clients from Australia,
-                China, Indonesia, Thailand, Vietnam and Singapore using Adobe Experience
-                Manager.
-                <br />
+                - Development and website enhancements of multiple clients from Australia,
+                China, Indonesia, Thailand, Vietnam, Singapore and Malaysia using Adobe Experience
+                Manager (AEM)
+                <br>
                 - Actively involved in projects and responding to business users on bug
-                fixes and enhancements. Required proper understanding of the AEM framework
-                and the tech surrounding it.
+                fixes and enhancements
+                <br>
+                - Required proper understanding of clients business domain as well
+                as the complex AEM framework and the tech surrounding it
               </p>
             </a>
           </div>
         </li>
-        <!-- TODO: update Experience section -->
+      </ul>
+    </div>
+    <div class="timeline">
+      <div class="year-container">
+        <span class="year">2020</span>
+      </div>
+      <ul>
+        <br>
+        <li>
+          <div class="content">
+            <a href="https://senwave.com.my/" target="_blank">
+              <h3>Senwave Retail Solutions</h3>
+              <h5>Software Developer</h5>
+              <div class="grey">Oct 2020 —  Jul 2021</div>
+              <br>
+              <p>
+                - Developed microservices using Java & Spring Boot to create RESTful endpoints for 
+                data processing with Magento/Adobe Commerce
+                <br>
+                - REST endpoints involve CRUD operations in a huge Postgres Data Lake
+              </p>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="timeline">
+      <div class="year-container">
+        <span class="year">2018</span>
+      </div>
+      <ul>
+        <br />
+        <li>
+          <div class="content">
+            <a href="https://juristech.net/juristech/" target="_blank">
+              <h3>JurisTech</h3>
+              <h5>Software Engineer</h5>
+              <div class="grey">Sep 2018 —  Apr 2019</div>
+              <br>
+              <p>
+                - Actively assisted developers in development of features as an intern
+                <br>
+                - Developed database scripts using Oracle's PL/SQL as well as managing the database
+                <br>
+                - Awarded intern distinction for outstanding commitment towards project and team members
+              </p>
+            </a>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
@@ -122,8 +172,9 @@ body {
   width: 100%;
   background-color: #1a202c;
   color: #fff;
-  padding: 30px 20px;
+  /* padding: 30px 20px; */
   word-wrap: normal;
+  margin-left: 15px;
 }
 
 .timeline ul {
@@ -133,7 +184,7 @@ body {
 }
 
 .timeline ul li {
-  padding: 20px 20px;
+  padding: 8px 20px;
   position: relative;
   cursor: pointer;
   transition: 0.5s;

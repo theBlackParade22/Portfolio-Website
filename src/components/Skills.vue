@@ -14,7 +14,7 @@
         <div class="icon logo">
           <div class="tooltip">Python</div>
           <span
-            ><font-awesome-icon class="fa-python fa-lg" icon="fa-brands fa-python"
+            ><font-awesome-icon href="#" class="fa-python fa-lg" icon="fa-brands fa-python"
           /></span>
         </div>
       </div>
@@ -65,20 +65,21 @@
       <div class="wrapper">
         <div class="icon logo">
           <div class="tooltip">Adobe Experience Manager (AEM)</div>
-          <span
-            ><img class="fa-aem fa-lg" src="../assets/img/logos/aem.svg" height="20"
-          /></span>
+          <span>
+            <img href="#" class="fa-aem fa-lg" src="../assets/img/logos/aem.svg" height="20" />
+          </span>
         </div>
       </div>
       <div class="wrapper">
         <div class="icon logo">
           <div class="tooltip">Springboot</div>
-          <span
-            ><img
+          <span>
+            <img href="#"
               class="fa-springboot fa-lg"
               src="../assets/img/logos/spring-boot.svg"
               height="20"
-          /></span>
+            />
+          </span>
         </div>
       </div>
       <div class="wrapper">
@@ -272,10 +273,17 @@ span {
 
 .items {
   margin: auto 0;
+  display: flex;
   align-content: center;
   justify-content: center;
 }
 
+@media screen and (max-width: 1258px) {
+  .items {
+    width: 100%;
+    display: block;
+  }
+}
 @media screen and (max-width: 530px) {
   .items {
     width: 100%;

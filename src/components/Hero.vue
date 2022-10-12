@@ -9,7 +9,7 @@
         <h3>
           I'm a
           <span>
-          <!-- shit does not work in Vue3 -->
+            <!-- shit does not work in Vue3 -->
             <VueTyper
               :text="['Software Engineer', 'Software Developer', 'Java Developer']"
               :repeat="Infinity"
@@ -40,24 +40,28 @@
             href="https://www.utp.edu.my/Pages/Home.aspx"
             >PETRONAS University of Technology</a
           >
-          in 2020. <br /><br />
-          I have accumulated experience in loan origination, retail management and
-          content management systems/frameworks. I started with a Backend Developer
-          background and lately have been refining my Frontend skills on the job. 👨🏾‍💻
+          in 2020.
+          <br /><br />
+          My development experience includes loan origination, retail management and
+          content management systems/frameworks. I started of with a background in Backend
+          development and have been refining my Frontend skills gradually. I enjoy
+          learning and utilizing new tech on the job. 👨🏾‍💻
         </p>
-        <p>My favourite hobby includes running 🏃🏾‍♂️, playing football ⚽ and reading 📚.</p>
+        <p>
+          My favourite hobbies include running 🏃🏾‍♂️, playing football ⚽ and reading 📚.
+        </p>
       </div>
       <div class="contact">
         <a href="#contact">
-          <div class="contact-me">Contact Me</div>
+          <div class="contact-me">Contact Me 📲</div>
         </a>
       </div>
       <!-- TODO: fix `here` href to #projects -->
       <p class="center">
-        View some of my projects<a
+        Check out my expertise<a
           rel="noopener noreferrer"
           class="green"
-          href="#experience" 
+          href="#experience"
           style="padding-top: 1px; margin-left: 5px; margin-right: 1px"
           >here</a
         >.
@@ -84,6 +88,10 @@ export default {
 }
 ::v-deep .custom.caret {
   background-color: green !important;
+}
+
+.bottom-text {
+  text-align: justify;
 }
 
 ul {
@@ -133,7 +141,7 @@ li:hover {
 }
 
 img {
-  height: 400px;
+  height: 200px;
   border-radius: 8px;
 }
 
@@ -148,17 +156,17 @@ img {
 
 .hero {
   display: flex;
-  margin-bottom: 2rem;
+  margin-bottom: -2.5rem;
 }
 
 .text {
-  height: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   color: white;
   margin-left: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 a {
@@ -199,12 +207,19 @@ h2 {
 h3 {
   font-weight: 480;
   font-size: 1.4rem;
+  height: 85px;
 }
 
 p {
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.3;
+}
+
+@media screen and (max-width: 570px) {
+  ul {
+    margin-left: 10px;
+  }
 }
 
 @media screen and (max-width: 1258px) {
@@ -225,7 +240,7 @@ p {
   .text {
     margin-left: 0;
     height: auto;
-    margin-bottom: 0.5rem;
+    margin-bottom: -0.5rem;
   }
 
   h2 {

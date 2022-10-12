@@ -3,14 +3,21 @@
     <div class="name" id="name">
       <h1>Hari Saresh</h1>
     </div>
-    <br>
     <ul>
-      <a href="https://www.linkedin.com/in/hari-saresh-040b92187/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://www.linkedin.com/in/hari-saresh-040b92187/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <li class="'last'">
           <font-awesome-icon class="fa-linkedin fa-lg" icon="fab fa-linkedin " />
         </li>
       </a>
-      <a href="https://github.com/theBlackParade22" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://github.com/theBlackParade22"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <li>
           <font-awesome-icon class="fa-github fa-lg" icon="fab fa-github" />
         </li>
@@ -21,7 +28,7 @@
 
 <script>
 export default {
-  name: "NavbarComp"
+  name: "NavbarComp",
 };
 </script>
 
@@ -45,15 +52,16 @@ nav {
   margin: 0 0 0 0;
   font-size: 3.2rem;
   font-weight: 600;
-  border-bottom: 6px solid #18D26E;
+  border-bottom: 6px solid #18d26e;
   line-height: 0.6;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   width: auto;
 }
 
 ul {
-  margin: 0;
-  list-style-type: none;
+  margin-top: 15px;
+  margin-bottom: -15px;
+  margin-left: -70px;
   display: flex;
   flex-direction: row;
 }
@@ -70,7 +78,7 @@ li {
 }
 
 li:hover {
-  background-color: #18D26E;
+  background-color: #18d26e;
   transform: translateY(-5px);
   transition: all ease 0.2s;
 }
@@ -87,8 +95,7 @@ li:hover {
   ul {
     justify-content: flex-start;
     align-items: flex-start;
-    padding-inline-start: 0;
-    margin-top: 2rem;
+    padding-inline-start: 70px;
   }
 
   li {
@@ -109,6 +116,8 @@ li:hover {
 @media screen and (max-width: 570px) {
   ul {
     width: 100%;
+    margin-left: -70px;
+    margin-top: 15px;
   }
 
   li {
