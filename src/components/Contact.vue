@@ -7,21 +7,6 @@
     <h4>🔔 Social</h4>
     <div class="wrapper">
       <div class="icon logo">
-        <div class="tooltip">Mail</div>
-        <span>
-          <a
-            href="mailto:hari.saresh@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            alt="hari.saresh@gmail.com"
-          >
-            <font-awesome-icon class="fa-envelope fa-lg" icon="fa-solid fa-envelope" />
-          </a>
-        </span>
-      </div>
-    </div>
-    <div class="wrapper">
-      <div class="icon logo">
         <div class="tooltip">Telegram</div>
         <span>
           <a href="https://t.me/harisaresh" target="_blank" rel="noopener noreferrer">
@@ -40,6 +25,21 @@
             rel="noopener noreferrer"
           >
             <font-awesome-icon class="fa-linkedin fa-lg" icon="fab fa-linkedin " />
+          </a>
+        </span>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="icon logo">
+        <div class="tooltip">Mail</div>
+        <span>
+          <a
+            href="mailto:hari.saresh@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="hari.saresh@gmail.com"
+          >
+            <font-awesome-icon class="fa-envelope fa-lg" icon="fa-solid fa-envelope" />
           </a>
         </span>
       </div>
