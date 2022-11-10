@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>"Man conquers the world my conquering himself."</p>
+    <p>"Man conquers the world by conquering himself."</p>
     <p class="italic">~ Zeno of Citium</p>
     <br>
     <div>
